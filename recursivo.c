@@ -15,7 +15,7 @@ int main(){
 	StackEntry r;
 	r = pop(s);
 	if (r!=-1){
-		printf("Las posiciones en que se repiten la segunda cadena en la primera son:\n");
+	printf("Las posiciones en que se repiten la segunda cadena en la primera son:\n");
 		while(r!=-1){
 			printf(" %d ", r);
 			r = pop(s);	
